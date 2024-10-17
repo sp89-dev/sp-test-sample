@@ -1,0 +1,27 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fp</groupId>
+  <artifactId>fp-test</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+	  <maven.compiler.target>11</maven.compiler.target>
+	  <maven.compier.source>11</maven.compier.source>
+	  <junit.jupiter.version>5.9.1</junit.jupiter.version>
+  </properties>
+  <dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>${junit.jupiter.version}</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.9.1</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+  
+</project>
